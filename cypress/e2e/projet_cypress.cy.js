@@ -1,11 +1,5 @@
 /// <reference types="cypress" />
 
-const {faker} = require("@faker-js/faker")
-const firstname = faker.person.fullName()
-const lastname = faker.person.lastName()
-const email = faker.internet.email()
-
-
 describe('Site Magento', function(){
     beforeEach(function(){
         cy.visit('https://all.accor.com/')
