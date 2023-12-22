@@ -8,7 +8,7 @@ const email = faker.internet.email()
 
 describe('Site Magento', function(){
     beforeEach(function(){
-        cy.visit('https://magento.softwaretestingboard.com/')
+        cy.visit('https://all.accor.com/')
     })
     it(' Create an Account', function(){
         cy.get('.panel.header :nth-child(3)').click()
